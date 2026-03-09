@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public float xRange = 10;
     public float zRange = 10;
 
+    public GameObject projectilePrefab;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -42,6 +44,14 @@ public class PlayerController : MonoBehaviour
         if (transform.position.z > zRange)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, zRange);
+        }
+
+
+
+    // Shoot the boner
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
 }
