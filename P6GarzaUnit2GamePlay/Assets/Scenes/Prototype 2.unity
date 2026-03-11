@@ -533,6 +533,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b61fb12a1b96c14cb419b8618c76b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 2254672078379697433, guid: 691a02e1f78379046a3fb8dcab31ba42, type: 3}
+  - {fileID: 7075472712181439380, guid: 86dec2e97c0d9a04bb76ac8e568a9e5a, type: 3}
+  - {fileID: 449079772921534589, guid: fc20de7182582694d9cbcee438a7c19e, type: 3}
+  animalIndex: 0
 --- !u!4 &585786442
 Transform:
   m_ObjectHideFlags: 0
