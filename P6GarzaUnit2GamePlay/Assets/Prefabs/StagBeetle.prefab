@@ -716,6 +716,8 @@ GameObject:
   - component: {fileID: 846481789601571755}
   - component: {fileID: 5674958242110922934}
   - component: {fileID: 57783770139998202}
+  - component: {fileID: 4894642541303375117}
+  - component: {fileID: 247582761943567922}
   m_Layer: 0
   m_Name: StagBeetle
   m_TagString: Untagged
@@ -793,6 +795,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbb9e5cd46a034e4ca5d05b4796e8da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &4894642541303375117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7075472712181439380}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.37296006, y: 0.37924305, z: 0.29406604}
+  m_Center: {x: -0.00957799, y: 0.17475127, z: 0.043384444}
+--- !u!114 &247582761943567922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7075472712181439380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24cc3ac66c3d67645b6c19b263a4fd31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8411931593912251819
