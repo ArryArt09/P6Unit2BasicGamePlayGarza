@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4823221182687009356}
   m_Layer: 0
   m_Name: FoxNews
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce5c9f0b5b75ecd478f466a75d24029a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 6
 --- !u!114 &4381860796518377546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,6 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbb9e5cd46a034e4ca5d05b4796e8da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topBound: 30
+  lowerBound: -10
+  sideBound: 20
 --- !u!65 &2204158359613886710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115,8 +118,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.2, z: 0.21473308}
-  m_Center: {x: -3.4573894e-15, y: 0, z: 0.018556928}
+  m_Size: {x: 0.3, y: 0.29430503, z: 0.21473308}
+  m_Center: {x: -3.4573894e-15, y: 0.04715241, z: 0.018556928}
 --- !u!54 &5257598842949167861
 Rigidbody:
   m_ObjectHideFlags: 0

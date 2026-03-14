@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public Transform projectileSpawnPoint;
     public float horizontalInput;
     public float verticalInput;
     public float speed = 10.0f;
@@ -51,7 +52,8 @@ public class PlayerController : MonoBehaviour
     // Shoot the boner
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, projectileSpawnPoint.position,
+projectilePrefab.transform.rotation);
         }
     }
 }

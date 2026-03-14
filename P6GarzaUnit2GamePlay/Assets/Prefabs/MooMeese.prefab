@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 601633472693492327}
   m_Layer: 0
   m_Name: MooMeese
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce5c9f0b5b75ecd478f466a75d24029a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 22
+  speed: 10
 --- !u!114 &8306491035817040596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbb9e5cd46a034e4ca5d05b4796e8da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topBound: 30
+  lowerBound: -10
+  sideBound: 20
 --- !u!54 &3531832476934220235
 Rigidbody:
   m_ObjectHideFlags: 0
