@@ -4,9 +4,21 @@ using UnityEngine;
 
 public class DetectCollisionsX : MonoBehaviour
 {
+    private GameManager gameManager;
+
+    void Start()
+    {
+        gameManager =
+GameObject.Find("GameManager").GetComponent<GameManager>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
+        if (other.CompareTag("Dog"))
+        {
+            gameManager.AddScore(1);
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+        }
     }
 }
